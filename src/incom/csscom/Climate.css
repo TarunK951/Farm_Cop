@@ -1,0 +1,90 @@
+/* weather.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.weather-card {
+    background-color: #fff;
+    border: 5px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.weather-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+.weather-details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-item {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.detail-item h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
